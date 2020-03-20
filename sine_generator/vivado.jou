@@ -1,0 +1,183 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Mar 19 13:53:59 2020
+# Process ID: 4576
+# Current directory: E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6388 E:\My Works\MITS\Multilevel Inverter in FPGA\Verilog Codes\Verilog-Basics\sine_generator\sine_generator.xpr
+# Log file: E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/vivado.log
+# Journal file: E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.xpr}
+launch_simulation
+source sine_tb.tcl
+update_compile_order -fileset sources_1
+relaunch_sim
+run 10 ns
+run all
+relaunch_sim
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source sine_tb.tcl
+close_sim
+launch_simulation
+source sine_tb.tcl
+close_sim
+launch_simulation
+source sine_tb.tcl
+close_sim
+launch_simulation
+source sine_tb.tcl
+close_sim
+launch_simulation
+source sine_tb.tcl
+relaunch_sim
+run all
+relaunch_sim
+run all
+close_sim
+close_project
+create_project {simple Sine Wave Generator} {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator} -part xc7z020clg484-1
+set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/constrs_1
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sources_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sources_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sources_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sources_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sources_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sources_1/new
+file mkdir {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sources_1/new}
+close [ open {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sources_1/new/sine_wave_gen.v} w ]
+add_files {{E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sources_1/new/sine_wave_gen.v}}
+update_compile_order -fileset sources_1
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sim_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sim_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sim_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sim_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sim_1/new
+file mkdir {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sim_1/new}
+close [ open {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sim_1/new/tb.v} w ]
+add_files -fileset sim_1 {{E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.srcs/sim_1/new/tb.v}}
+update_compile_order -fileset sim_1
+launch_simulation
+source tb.tcl
+update_compile_order -fileset sim_1
+open_project {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source sine_tb.tcl
+launch_simulation
+source sine_tb.tcl
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 ms
+relaunch_sim
+relaunch_sim
+run 100 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source sine_tb.tcl
+run all
+close_sim
+launch_simulation
+source sine_tb.tcl
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:sim_clk_gen:1.0 sim_clk_gen_0
+endgroup
+create_bd_cell -type module -reference top top_0
+set_property location {0.5 -74 -57} [get_bd_cells sim_clk_gen_0]
+set_property location {2 176 -70} [get_bd_cells top_0]
+connect_bd_net [get_bd_pins sim_clk_gen_0/clk] [get_bd_pins top_0/clk]
+startgroup
+set_property -dict [list CONFIG.FREQ_HZ {50}] [get_bd_cells sim_clk_gen_0]
+endgroup
+close_sim
+save_bd_design
+launch_simulation
+source sine_tb.tcl
+close_sim
+close_project
+create_project sinus_gen {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen} -part xc7z020clg484-1
+set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sources_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sources_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sources_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sources_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sources_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sources_1/new
+file mkdir {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sources_1/new}
+close [ open {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sources_1/new/sinus_gen.v} w ]
+add_files {{E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sources_1/new/sinus_gen.v}}
+update_compile_order -fileset sources_1
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sim_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sim_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sim_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sim_1/new
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sim_1/new
+file mkdir {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sim_1/new}
+close [ open {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sim_1/new/sinus_tb.v} w ]
+add_files -fileset sim_1 {{E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/sinus_gen/sinus_gen.srcs/sim_1/new/sinus_tb.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/DeadSec.DESKTOP-AF1HLPJ/Desktop/sin_lut.mem
+create_bd_cell -type module -reference sinus_gen sinus_gen_0
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:sim_clk_gen:1.0 sim_clk_gen_0
+endgroup
+set_property location {1 92 70} [get_bd_cells sim_clk_gen_0]
+connect_bd_net [get_bd_pins sim_clk_gen_0/clk] [get_bd_pins sinus_gen_0/clk]
+save_bd_design
+launch_simulation
+update_module_reference design_1_sinus_gen_0_0
+validate_bd_design
+save_bd_design
+launch_simulation
+update_module_reference design_1_sinus_gen_0_0
+launch_simulation
+source sinus_tb.tcl
+current_project {simple Sine Wave Generator}
+current_sim simulation_7
+close_sim
+close_project
+close_sim
+close_project
+open_project {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Reference/simple Sine Wave Generator/simple Sine Wave Generator.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.xpr}
+update_compile_order -fileset sources_1
+open_bd_design {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sources_1/bd/design_1/design_1.bd}
+launch_simulation
+source sine_tb.tcl
+close_bd_design [get_bd_designs design_1]
+set_property is_enabled false [get_files  {{E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sources_1/bd/design_1/design_1.bd}}]
+close_sim
+launch_simulation
+source sine_tb.tcl
+set_property is_enabled true [get_files  {{E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sources_1/bd/design_1/design_1.bd}}]
+open_bd_design {E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sources_1/bd/design_1/design_1.bd}
+update_module_reference design_1_top_0_0
+update_compile_order -fileset sources_1
+close_bd_design [get_bd_designs design_1]
+set_property is_enabled false [get_files  {{E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sources_1/bd/design_1/design_1.bd}}]
+close_sim

@@ -1,0 +1,79 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7z020clg484-1",
+      "name": "top",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2"
+    },
+    "design_tree": {
+      "sim_clk_gen_0": "",
+      "clock_divider_0": "",
+      "sine_generator_0": ""
+    },
+    "components": {
+      "sim_clk_gen_0": {
+        "vlnv": "xilinx.com:ip:sim_clk_gen:1.0",
+        "xci_name": "top_sim_clk_gen_0_0"
+      },
+      "clock_divider_0": {
+        "vlnv": "xilinx.com:module_ref:clock_divider:1.0",
+        "xci_name": "top_clock_divider_0_0",
+        "parameters": {
+          "f": {
+            "value": "50"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "clock_divider",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "divided_clk": {
+            "type": "clk",
+            "direction": "O"
+          }
+        }
+      },
+      "sine_generator_0": {
+        "vlnv": "xilinx.com:module_ref:sine_generator:1.0",
+        "xci_name": "top_sine_generator_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "sine_generator",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_50Hz": {
+            "direction": "I"
+          },
+          "sine_out": {
+            "direction": "O",
+            "left": "8",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clock_divider_0_divided_clk": {
+        "ports": [
+          "clock_divider_0/divided_clk",
+          "sine_generator_0/clk_50Hz"
+        ]
+      },
+      "sim_clk_gen_0_clk": {
+        "ports": [
+          "sim_clk_gen_0/clk",
+          "clock_divider_0/clk"
+        ]
+      }
+    }
+  }
+}

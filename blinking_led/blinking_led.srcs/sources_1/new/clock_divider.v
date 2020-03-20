@@ -5,8 +5,9 @@ input wire clk,// 100MHz
 output reg divided_clk =0// 1Hz => 0.5s ON and 0.5s OFF
 );
 integer counter_value = 0; //32 bit Register Bus
-localparam value = 49999999; //1Hz
-//divided_value = (100MHz/(2*Desired Frequency))-1
+//localparam value = 49999999; //1Hz
+//parameter f = 0;
+localparam value = (100000000/(2*f))-1;
 always@(posedge clk)
 /*Executes at every positive edge
  of the generated clock*/

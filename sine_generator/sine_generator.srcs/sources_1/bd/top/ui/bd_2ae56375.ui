@@ -1,0 +1,17 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.18099",
+   "Default View_TopLeft":"-132,-209",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace inst sim_clk_gen_0 -pg 1 -lvl 1 -x -70 -y 20 -defaultsOSRD
+preplace inst clock_divider_0 -pg 1 -lvl 2 -x 130 -y -10 -defaultsOSRD
+preplace inst sine_generator_0 -pg 1 -lvl 3 -x 360 -y 40 -defaultsOSRD
+preplace netloc clock_divider_0_divided_clk 1 2 1 230 -10n
+preplace netloc sim_clk_gen_0_clk 1 1 1 30 -10n
+levelinfo -pg 1 -170 -70 130 360 500
+pagesize -pg 1 -db -bbox -sgen -170 -120 500 170
+"
+}
+
