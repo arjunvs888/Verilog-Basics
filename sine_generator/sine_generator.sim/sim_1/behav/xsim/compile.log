@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sources_1/new/sine_generator.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module sine_generator
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sim_1/new/sine_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module sine_tb
