@@ -1,0 +1,42 @@
+`timescale 10ns / 1ps
+module sine_generator( input clk, output reg [8:0] sine_out);
+integer i=0;
+reg[0:2] quad;
+parameter size = 1000;
+//parameter clk_f = 50;
+reg [8:0] RAM [size-1:0];
+initial begin
+    $readmemh("sin_lut.mem",RAM);
+    quad = 2'b00;
+end
+always@(posedge clk)begin
+        case(quad)
+        2'b00 : begin
+                for (i=0;i<=(size-1);i=i+1) begin
+                sine_out = RAM[i];
+                $display("%d-->%h",i,sine_out);
+                end
+                quad=quad+1;
+                $display("--------------------------%b",quad);
+                end
+//        2'b01 : begin
+//                for (i=(size-1);i<=0;i=i-1) begin
+//                sine_out <= RAM[i];
+//                $display("%d",quad);
+//                $display("%d-->%h",i,sine_out);
+//                end
+//                quad=quad+1;
+//                end
+//        2'b10 : begin
+//                sine_out <= -RAM[i];
+//                i=i+1;
+//                end
+//        2'b11 : begin
+//                sine_out <= -RAM[~i];
+//                i=i-1;
+//                end
+        endcase
+       if(quad>2'b00)quad<=2'b00;
+       if(i==(size-1))i<=0;
+end
+endmodule

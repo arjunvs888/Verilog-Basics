@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Wed Mar 25 00:38:32 2020
+| Date         : Wed Mar 25 19:25:13 2020
 | Host         : DeadSec-PC running 64-bit major release  (build 9200)
 | Command      : report_utilization -file sine_generator_utilization_synth.rpt -pb sine_generator_utilization_synth.pb
 | Design       : sine_generator
@@ -148,12 +148,12 @@ Table of Contents
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | FDRE     |   42 |        Flop & Latch |
-| CARRY4   |   16 |          CarryLogic |
 | OBUF     |    9 |                  IO |
-| LUT6     |    6 |                 LUT |
-| LUT1     |    2 |                 LUT |
+| CARRY4   |    8 |          CarryLogic |
+| LUT4     |    5 |                 LUT |
+| LUT5     |    4 |                 LUT |
 | RAMB18E1 |    1 |        Block Memory |
-| LUT2     |    1 |                 LUT |
+| LUT1     |    1 |                 LUT |
 | IBUF     |    1 |                  IO |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+
