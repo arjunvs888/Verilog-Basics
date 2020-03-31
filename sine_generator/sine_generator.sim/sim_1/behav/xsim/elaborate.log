@@ -8,7 +8,9 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_divider
 Compiling module xil_defaultlib.sine_generator
+Compiling module xil_defaultlib.top
 Compiling module xil_defaultlib.sine_tb
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot sine_tb_behav

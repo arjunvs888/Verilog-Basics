@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log sine_generator.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sine_generator.tcl
+EAStep vivado -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl

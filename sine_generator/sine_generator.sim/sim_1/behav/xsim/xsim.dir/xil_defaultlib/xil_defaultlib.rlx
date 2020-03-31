@@ -2,6 +2,8 @@
 2019.2
 Nov  6 2019
 21:57:16
+E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/blinking_led/blinking_led.srcs/sources_1/new/clock_divider.v,1585651246,verilog,,E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sources_1/new/sine_generator.v,,clock_divider,,,,,,,,
 E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
-E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sim_1/new/sine_tb.v,1585142187,verilog,,,,sine_tb,,,,,,,,
-E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sources_1/new/sine_generator.v,1585143489,verilog,,E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sim_1/new/sine_tb.v,,sine_generator,,,,,,,,
+E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sim_1/new/sine_tb.v,1585645602,verilog,,,,sine_tb,,,,,,,,
+E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sources_1/new/sine_generator.v,1585651102,verilog,,E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sources_1/new/top.v,,sine_generator,,,,,,,,
+E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sources_1/new/top.v,1585645942,verilog,,E:/My Works/MITS/Multilevel Inverter in FPGA/Verilog Codes/Verilog-Basics/sine_generator/sine_generator.srcs/sim_1/new/sine_tb.v,,top,,,,,,,,

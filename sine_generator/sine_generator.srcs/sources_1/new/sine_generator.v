@@ -1,5 +1,5 @@
 `timescale 10ns / 1ps
-module sine_generator( input clk,output reg signed [8:0] sine_out=0);
+module sine_generator( input wire clk,output reg signed [8:0] sine_out=0);
 integer i=0;
 localparam size = 1000;
 //parameter clk_f = 50;
@@ -11,18 +11,11 @@ initial begin
 end
 always@(posedge clk)begin
         if(x==2'b00)begin
-            //i=0;
             sine_out <= RAM[i]-255;
-            $display ("QUAD1 %d:-->%h",i,sine_out);
+//            $display ("QUAD1 %d:-->%h",i,sine_out);
             i=i+1;
            end
           if(i==size-1)i<=0;
-//       if(x==2'b01)begin
-//            //i=size-1;
-//            sine_out <= RAM[i];
-//            $display ("QUAD2 %d:-->%h",i,sine_out);
-//            i=i-1;
-//           end
 end   
 
 endmodule
